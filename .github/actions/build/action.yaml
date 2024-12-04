@@ -65,7 +65,7 @@ runs:
         push: never
         runCmd: |
           src/bin/rsdk setup
-          src/bin/rsdk shell rsdk build ${{ env.options }} ${{ inputs.product }} ${{ inputs.suite }} ${{ inputs.edition }} --debs ./debs
+          src/bin/rsdk shell rsdk build ${{ env.options }} ${{ inputs.product }} ${{ inputs.suite }} ${{ inputs.edition }}
     - name: Prepare for release
       id: prep
       shell: bash

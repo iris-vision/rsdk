@@ -36,4 +36,5 @@ jobs:
           product: ${{ matrix.products }}
           test-repo: true
           artifacts: true
+          suite: bullseye
           edition: cli
