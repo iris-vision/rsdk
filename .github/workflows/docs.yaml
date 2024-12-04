@@ -1,22 +1,5 @@
 name: Deploy documentation
 on:
-  merge_group:
-  pull_request:
-    paths:
-      - 'docs/**'
-      - 'theme/**'
-      - 'po/**'
-      - book.toml
-      - .github/workflows/docs.yaml
-  push:
-    branches:
-      - main
-    paths:
-      - 'docs/**'
-      - 'theme/**'
-      - 'po/**'
-      - book.toml
-      - .github/workflows/docs.yaml
   workflow_dispatch:
 
 concurrency:
