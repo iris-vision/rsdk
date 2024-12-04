@@ -87,6 +87,7 @@ runs:
       with:
         name: ${{ steps.prep.outputs.BUILD_TUPLE }}
         path: out/**/*
+        retention-days: 3
     - name: Upload build outputs to Release
       if: inputs.release-id != '' && inputs.github-token != ''
       uses: xresloader/upload-to-github-release@v1
