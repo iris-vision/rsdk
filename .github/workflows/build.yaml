@@ -36,3 +36,4 @@ jobs:
           product: ${{ matrix.products }}
           test-repo: true
           artifacts: true
+          edition: cli
