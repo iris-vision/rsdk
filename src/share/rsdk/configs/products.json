@@ -5,6 +5,6 @@
         "product_full_name": "Radxa CM5 IO Board",
         "soc": "rk3588s2",
         "supported_suite": ["bookworm"],
-        "supported_edition": ["cli"]
+        "supported_edition": ["kde", "cli"]
     }
 ]

@@ -51,7 +51,6 @@ else
             "ntfs-3g",
             "python3-pip",
             "software-properties-common",
-            "tmux",
             "vim",
             "wget",
             "xz-utils",
@@ -66,7 +65,6 @@ else
             "iproute2",
             "iptables",
             "iputils-ping",
-            "samba",
             "wireless-regdb",
         ] +
 
@@ -111,7 +109,14 @@ else
             // Misc
             "libmraa2",
             "libmraa-dev",
-            "libopencv-dev",
+        ] +
+
+        [
+            // Required for Iris
+            "mrcal",
+            "libmrcal-dev",
+            "python3-mrcal"
+            "python3-venv",
         ],
 
         "customize-hooks"+:
